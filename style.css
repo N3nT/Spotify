@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #191414;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgba(25,20,20, 0.8);
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    margin: 20px 0 20px 40px;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    margin: 20px 40px 20px 40px;
+}
+.user_name{
+    line-height: 60px;
+    font-weight: bold;
+}
+.user img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.background{
+    height: 700px;
+    width: 100%;
+    background-image: url(img/andreas-brucker-g5Uh7nP60FA-unsplash.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.background p{
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(25,20,20, 0.6);
+}
+#p_bolder{
+    font-size: 40px;
+    font-weight: 600;
+}
+#p_opacity{
+    opacity: 0.8;
+}
+.playlist_wrap{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.playlist_menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0 50px 40px;
+}
+.playlist_menu_play{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1DB954;
+    transition: 0.3s ease-in-out;
+}
+.playlist_menu_play img{
+    height: 25px;
+    margin-left: 4px;
+}
+.playlist_menu_play:hover{
+    filter: brightness(120%);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.playlist_like{
+    margin-left: 30px;
+}
+.playlist_like img{
+    height: 35px;
+    width: 35px;
+    transition: 0.3s ease-in-out;
+}
+.playlist_like img:hover{
+    filter: brightness(120%);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.song_wrap{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    background-color: #191414;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 40px 0 40px;
+    transition:  0.3s ease-in-out;
+    position: relative;
+}
+.song_wrap:hover{
+    background-color: #242424;
+    transition:  0.3s ease-in-out;
+}
+.song_image{
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.song_title{
+    position: absolute;
+    left: 200px;
+}
+.song_artist{
+    position: absolute;
+    left: 800px;
+}
+.song_time{
+    position: absolute;
+    left: 1600px;
+}
+.song_tag{
+    opacity: 0.8;
+    font-weight: 200;
+    font-size: 13px;
+}
+footer{
+    padding-bottom: 50px;
+}
+.footer_wrap{
+    margin-left: 100px;
+    width: 90%;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(255,255,255, 0.5);
+}
+.footer_content{
+    display: flex;
+}
+.footer_links_wrap{
+    padding: 50px;
+    color: rgba(255,255,255, 0.8);
+    overflow: hidden;
+}
+.link_tag_span{
+    color: rgba(255,255,255, 1);
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+.links_content{
+    padding: 7px;
+}
+.social_media_wrap{
+    display: flex;
+    margin: 50px;
+    margin-left: 700px;
+}
+.social_media_wrap:hover{
+    transition: 0.3s ease-in-out;
+    opacity: 1;
+}
+.social_media_wrap img{
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+}
+.media_link img{
+    opacity: 0.7;
+    transition: 0.3s ease-in-out;
+}
+.media_link img:hover{
+    transition: 0.3s ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+}
+.footer_text{
+    margin-left: 150px;
+    color: rgba(255,255,255, 0.8);
+    font-weight: 200;
+}
+.link_hover{
+    border-bottom: 1px solid rgba(255,255,255, 0);
+    transition: 0.3s ease-in-out;
+}
+.link_hover:hover{
+    border-bottom: 1px solid rgba(255,255,255, 1);
+    color: rgba(255,255,255, 1);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
